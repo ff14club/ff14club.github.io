@@ -1,0 +1,23 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.pagination__item {
+  color: #ffffff;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  &.active {
+    background-color: #fff;
+    color: #000000;
+    border-radius: 100%;
+  }
+}

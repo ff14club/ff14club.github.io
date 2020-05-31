@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <base href="/" />
+
+    <title>Новости, гайды по игре Final Fantasy XIV Online</title>
+    <meta name="description" content="Новости, гайды по игре Final Fantasy XIV Online" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="img/1.jpg" />
+    <link rel="icon" href="img/favicon.ico" />
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="" />
+    <!-- Custom Browsers Color End -->
+
+    <link rel="stylesheet" href="dist/css/libs.min.css" />
+    <link rel="stylesheet" href="dist/css/common.min.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a href="/" class="header__logo">
+          <img src="img/logo.png" alt="LOGO" />
+        </a>
+
+        <nav class="header-nav">
+          <a href="/" class="header-nav__link">Главная</a>
+          <a href="guides" class="header-nav__link">Гайды</a>
+          <a href="streams" class="header-nav__link">Стримы</a>
+        </nav>
+      </div>
+    </header>
+  </body>
+</html>
+
+
+<div class="article-page">
+  <div
+    class="article-page__big-preview"
+    style="
+      background-image: url(images/icons/machinist/6pszzejss7u21.jpg);
+    "
+  ></div>
+
+  <div class="article-page-container container">
+    <div class="row">
+      <div class="article-page__body-col col">
+        <div class="article-page__body">
+          <h1 class="article-page__title">Машинист для чайников - гайд</h1>
+
+          <div class="article-page__date">
+            07.04.2019
+          </div>
+
+          <img
+            src="images/icons/machinist/6pszzejss7u21.jpg"
+            class="article-page__preview"
+          />
+
+          <div class="article-page__content">
+            <p>
+  <b>Благодарность за предоставленный гайд <a href="https://www.twitch.tv/krkirill" target="_blank" style="text-decoration: underline;">Кириллу</a>.</b>
+</p>
+
+<p>
+  Данный гайд не является эндгеймом. Всё написанное ниже является основой игры за машиниста. Если вам нужны мелды, овермелды бис и тд., то вам не сюда. Вся информация актуальна на апрель 2019 г.
+</p>
+
+<p>Вы решили поиграть за машиниста? Тогда начнем с базового. </p>
+
+<h3>
+  Немного лора часть I
+</h3>
+
+<p>
+  Ученые до сих пор не могут определить точный период, когда были изобретены первые экземпляры стрелкового оружия, тем не менее, четко виднеется 2 пути развития: Аллаганское и Гарлеанское. Подтверждение этому стали маленькие ручные пушки, недавно найденные при раскопках в Мор Доне. Эти механизмы
+  были изобретены до 3-й Эры Астрала, и они заряжались переработанным порошком от ветровых и огненных кристаллов, которое поджигалось посредством заклинаний огня. В итоге взрыв генерировал ветренной эфир, который быстро расширялся и направлял камень или металл в стволе оружия, в сторону
+  прицеливания.
+  <br>
+  Аллагнцы, в итоге, улучшили огнестрелы и во время второго правления Императора Занде аллаганцы уже создавали одни из самых сильных ружей когда либо существующих в Эорзии, настоящие машины для убийства сотен в мгновение ока. Хорошо это или плохо, но все технологии переработки кристаллов того
+  периода бесследно канули в лету с падением Империи Аллаганов при Исходе Земли.
+</p>
+
+<h3>
+  Скиллы 30-35
+</h3>
+
+<p>
+  Машинист - класс дальнего боя с физическим уроном. Все ( почти ) скиллы прожимаются на ходу. Вы его получаете сразу на 30 уровне в Foundation ( Skysteel Manufactory aetheryte). После получения заветного камушка <b>Soul of the Machinist</b> на класс и пройдя первый классовый квест у вас получается
+  следующий сет скиллов:
+</p>
+
+<h4>Weaponskills:</h4>
+
+<div class="table-wrapper">
+  <table class="table center" style="width: 100%;">
+    <tr>
+      <th>Иконка</th>
+      <th>Название</th>
+      <th>Описание</th>
+      <th style="max-width: 102px">Уровень получения</th>
+      <th style="max-width: 102px">Время применения</th>
+      <th style="max-width: 100px">Время восстан-<br>овления</th>
+      <th style="max-width: 100px; font-size: 14px;">Стоимость</th>
+      <th style="max-width: 128px">Дальность действия/радиус</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 50px;" alt=""></th>
+      <th>Split Shot</th>
+      <th>
+        Атака с силой 160.
+        <br>
+        Дополнительный эффект: 50% шанс увеличения силы атаки при следующем применении Slug Shot на 100 или Heated Slug Shot на 130
+        <br>
+        Продолжительность: 10 сек
+        <br>
+        Эффект Ammunition: Увеличивает текущую силу атаки Split Shot на 30
+        <br>
+        Эффект Ammunition: 100% увеличения силы атаки при следующем Slug Shot
+        <br>
+        Эффект Gauss Barrel: Заполняет Heat Gauge на 5
+      </th>
+      <th>1</th>
+      <th>Мгновенный</th>
+      <th>2,5 сек</th>
+      <th>60 TP</th>
+      <th>25y/0y</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 50px;" alt=""></th>
+      <th>Slug Shot</th>
+      <th>
+        Атака с силой 100.
+        <br>
+        Сила с бонусом Split Shot: 200
+        <br>
+        Дополнительный эффект: 50% шанс увеличения силы следующего Clean Shot на 140 или Heated Clean Shot на 170
+        <br>
+        Продолжительность: 10 сек
+        <br>
+        Эффект Ammunition: Увеличивает текущую силу Slug Shot на 30
+        <br>
+        Эффект Ammunition: 100% шанс увеличения силы следующего Clean Shot
+        <br>
+        Эффект Gauss Barrel: Заполняет Heat Gauge на 5
+      </th>
+      <th>2</th>
+      <th>Мгновенный</th>
+      <th>2,5 сек</th>
+      <th>50 TP</th>
+      <th>25y/0y</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/qH8vmi3rXDeYBC1i8FtTCb4HlI.png" style="width: 50px;" alt=""></th>
+      <th>Spread Shot</th>
+      <th>
+        Атака с силой 80 по всем врагам в пределах конуса перед персонажем.
+        <br>
+        Эффект Ammunition: Увеличивает силу Spread Shot на 30
+        <br>
+        Эффект Gauss Barrel: Увеличивает Heat Gauge на 5
+      </th>
+      <th>18</th>
+      <th>Мгновенный</th>
+      <th>2,5 сек</th>
+      <th>120 TP</th>
+      <th>12/12</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/vXOGNVgktgRB3CwKooV4zXKdH8.png" style="width: 50px;" alt=""></th>
+      <th>Hot Shot</th>
+      <th>
+        Атака с силой 120.
+        <br>
+        Дополнительный эффект: Увеличивает наносимый фищический урон на 10%
+        <br>
+        Продолжительность: 60 сек
+        <br>
+        Эффект Ammunition: Увеличивает силу Hot Shot на 30
+        <br>
+        Эффект Gauss Barrel: Увеличивает Heat Gauge на 5
+      </th>
+      <th>30</th>
+      <th>Мгновенный</th>
+      <th>2,5 сек</th>
+      <th>60 TP</th>
+      <th>25y/0y</th>
+    </tr>
+  </table>
+</div>
+
+<h4>Abilities:</h4>
+
+<div class="table-wrapper">
+  <table class="table center">
+    <tr>
+      <th>Иконка</th>
+      <th>Название</th>
+      <th>Описание</th>
+      <th style="max-width: 102px">Уровень получения</th>
+      <th style="max-width: 102px">Время применения</th>
+      <th style="max-width: 100px">Время восстан-<br>овления</th>
+      <th style="max-width: 100px; font-size: 14px;">Стоимость</th>
+      <th style="max-width: 128px">Дальность действия/радиус</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/A9Kx7Kd3owH57RZuHHUr3ZNfFA.png" style="width: 50px;" alt=""></th>
+      <th>Reload</th>
+      <th>
+        Заряжает огнестрельное оружие тремя специальными боеприпасами.
+        <br>
+        Каждый патрон используется при выполнении любого боевого навыка, увеличивая его эффективность.
+        <br>
+        Использование специальных боеприпасов также может увеличить шанс срабатывания дополнительного эффекта боевого навыка и снизить
+        накопление Heat Gauge.
+        <br>
+        Одновременно может быть заряжено не более трех специальных патронов (Ammunition).
+      </th>
+      <th>4</th>
+      <th>Мгновенный</th>
+      <th>30 сек.</th>
+      <th>-</th>
+      <th>0y/0y</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/UOREdzAERMGf6S94u2aOUi9JAg.png" style="width: 50px;" alt=""></th>
+      <th>Heartbreak</th>
+      <th>
+        Атака с силой 240.
+        <br>
+        Может быть использована только когда ХП цели ранво или ниже 20%.
+      </th>
+      <th>6</th>
+      <th>Мгновенный</th>
+      <th>30 сек.</th>
+      <th>-</th>
+      <th>25y/0y</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/fWB2B7FhgXJUlFUbTWirrMmF6k.png" style="width: 50px;" alt=""></th>
+      <th>Reassemble</th>
+      <th>
+        Следующий боевой навык гарантированно получит эффект критического удара.
+        <br>
+        Если следующее действие будет атакой по области, то только первая цель получит критический урон.
+        <br>
+        Продолжительность: 20 сек
+      </th>
+      <th>10</th>
+      <th>Мгновенный</th>
+      <th>60 сек.</th>
+      <th>-</th>
+      <th>0y/0y</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/T9nUOM5t_kI0y-N7XLIrnsu9S4.png" style="width: 50px;" alt=""></th>
+      <th>Blank</th>
+      <th>
+        Отталкивает врага на 15 ялмов от персонажа.
+      </th>
+      <th>15</th>
+      <th>Мгновенный</th>
+      <th>30 сек.</th>
+      <th>-</th>
+      <th>5y/0y</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 50px;" alt=""></th>
+      <th>Quick Reload</th>
+      <th>
+        Пополняет боеприпасы на 1.
+      </th>
+      <th>26</th>
+      <th>Мгновенный</th>
+      <th>15 сек.</th>
+      <th>-</th>
+      <th>0y/0y</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/vcG5vI6AVjfQX8acb5ir3gH-As.png" style="width: 50px;" alt=""></th>
+      <th>Rapid Fire</th>
+      <th>
+        Уменьшает время восстановления боевых навыков до 1.5 секунд.
+        <br>
+        Эффект исчезает после использования трех боевых навыков.
+        <br>
+        Продолжительность: 15 сек
+      </th>
+      <th>30</th>
+      <th>Мгновенный</th>
+      <th>60 сек.</th>
+      <th>-</th>
+      <th>0y/0y</th>
+    </tr>
+  </table>
+</div>
+
+<p>
+  Сразу же возникает вопрос - в чем разница между <b>Weaponskill</b> и <b>Ability</b>?
+  <br>
+  <b>Weaponskills</b> - это навыки(скиллы) оружия, которые непосредственно подчиняются правилу ГКД(GCD - Global Cooldown), что означает общий “откат” навыка по времени. Соответственно вы не сможете использовать следующий навык, пока глобальный откат не кончится. <b>Abilities</b> или можно
+  возможности или в народе просто абилки не имеют ГКД и каждая откатывается самостоятельно.
+</p>
+
+<h3>Ротация 30-35</h3>
+
+<p>
+  А теперь собственно как все это в теории должно работать до 35-го :
+  <br>
+  Вы начинаете с накладывания <img src="images/icons/machinist/vXOGNVgktgRB3CwKooV4zXKdH8.png" style="width: 30px;" alt=""><b>Hot Shot</b>. Потом врубаете <img src="images/icons/machinist/A9Kx7Kd3owH57RZuHHUr3ZNfFA.png" style="width: 30px;" alt=""><b>Reload</b> и даёте себе 3 ед амуниции. Далее
+  можете использовать <img src="images/icons/machinist/vcG5vI6AVjfQX8acb5ir3gH-As.png" style="width: 30px;" alt=""><b>Rapid Fire</b> и стрельнуть <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot</b>. Потом прокнет
+  <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug Shot</b> с улучшенным эффектом от <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot</b> и доп уроном от <b>Ammunition Effect</b>.
+  Перед тем, как использовать
+  <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug Shot</b>, используете
+  <img src="images/icons/machinist/fWB2B7FhgXJUlFUbTWirrMmF6k.png" style="width: 30px;" alt=""><b>Reassemble</b> для крит. эффекта <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug Shot</b> (на данный момент ваш самый сильный скилл). Прожимаете
+  <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug Shot</b> и у вас остается 1 ед амуниции и большинство абилок в откате. Поэтому можно добавить <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Quick
+  Reload</b> и получить доп ед амуниции. После
+  этого прожимаем
+  <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot</b> > <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug Shot</b>. Пока ждём отката
+  <img src="images/icons/machinist/A9Kx7Kd3owH57RZuHHUr3ZNfFA.png" style="width: 30px;" alt=""><b>Reload</b> используем <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot</b>, если накладывается эффект на
+  <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug Shot</b> (это когда пунктирная линия вокруг скилла идёт) используем его. <img src="images/icons/machinist/A9Kx7Kd3owH57RZuHHUr3ZNfFA.png" style="width: 30px;" alt=""><b>Reload</b> откатывается -
+  повторяем <img src="images/icons/machinist/A9Kx7Kd3owH57RZuHHUr3ZNfFA.png" style="width: 30px;" alt=""><b>Reload</b> > <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot</b> >
+  <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug
+  Shot</b> > <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Quick Reload</b> > <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot</b> >
+  <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug Shot</b>. К этому времени надо бы уже обновить <img src="images/icons/machinist/vXOGNVgktgRB3CwKooV4zXKdH8.png" style="width: 30px;" alt=""><b>Hot Shot</b> и где-то уже близко на откате
+  <img src="images/icons/machinist/vcG5vI6AVjfQX8acb5ir3gH-As.png" style="width: 30px;" alt=""><b>Rapid Fire</b> с <img src="images/icons/machinist/fWB2B7FhgXJUlFUbTWirrMmF6k.png" style="width: 30px;" alt=""><b>Reassemble</b>. Ждём 3го отката
+  <img src="images/icons/machinist/A9Kx7Kd3owH57RZuHHUr3ZNfFA.png" style="width: 30px;" alt=""><b>Reload</b> используя <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split shot</b> и если есть улучшение
+  <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug Shot</b>. 3ий <img src="images/icons/machinist/A9Kx7Kd3owH57RZuHHUr3ZNfFA.png" style="width: 30px;" alt=""><b>Reload</b>
+  откатился, повторяем процедуру выше. На 20% и ниже
+  <img src="images/icons/machinist/UOREdzAERMGf6S94u2aOUi9JAg.png" style="width: 30px;" alt=""><b>Heartbreak</b> по откату.
+  <br>
+  Если мы добавляем сюда аое, тогда вместо траты амуниции на <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot/<img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt="">Slug Shot</b>, тратим на
+  <img src="images/icons/machinist/qH8vmi3rXDeYBC1i8FtTCb4HlI.png" style="width: 30px;" alt=""><b>Spread Shot</b>, с 2 исключениями: 1) <img src="images/icons/machinist/fWB2B7FhgXJUlFUbTWirrMmF6k.png" style="width: 30px;" alt=""><b>Reassemble</b> исключительно тратим всё равно на улучшенный
+  <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug Shot</b>;
+  <br>
+  2) <img src="images/icons/machinist/qH8vmi3rXDeYBC1i8FtTCb4HlI.png" style="width: 30px;" alt=""><b>Spread Shot</b> используете только под амуницию, в остальном используйте
+  <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot/<img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt="">Slug Shot</b>.
+</p>
+
+<h3>Скиллы 35-50</h3>
+
+<p>
+  Вы достигли 35го, теперь у вас полное комбо - вам дали <img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean Shot</b>.
+  <br>
+  <img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean Shot</b> - это навык с базовым потенциалом 100. Если улучшенный от <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug Shot</b> то потенциал 240.
+  Увеличен потенциал на 30 при Ammunition Effect.
+  <br>
+  Теперь до 38го в принципе всё тоже самое но, с добавлением <img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean Shot</b>. То есть, <img src="images/icons/machinist/vXOGNVgktgRB3CwKooV4zXKdH8.png" style="width: 30px;" alt=""><b>Hot Shot</b> >
+  <img src="images/icons/machinist/A9Kx7Kd3owH57RZuHHUr3ZNfFA.png" style="width: 30px;" alt=""><b>Reload</b> > <img src="images/icons/machinist/vcG5vI6AVjfQX8acb5ir3gH-As.png" style="width: 30px;" alt=""><b>Rapid Fire</b> >
+  <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot</b> > <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug Shot</b>, а вот тут у нас есть опции. В теории, можно прожать
+  <img src="images/icons/machinist/fWB2B7FhgXJUlFUbTWirrMmF6k.png" style="width: 30px;" alt=""><b>Reassemble</b> > <img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean Shot</b> >
+  <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Quick Reload</b> > <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot</b> >
+  <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug Shot</b>, но из-за незватки 5-й амуниции нет 100% шанса, что 2-й <img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean Shot</b> прокнет улучшенный.
+  Поэтому есть вариант
+  <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot</b> > <img src="images/icons/machinist/fWB2B7FhgXJUlFUbTWirrMmF6k.png" style="width: 30px;" alt=""><b>Reassemble</b> >
+  <img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean Shot</b> >
+  <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Quick Reload</b> > <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug Shot</b> >
+  <img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean Shot</b>. Тогда оба <img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean Shot</b> будут улучшенные но без поддержки <b>Ammunition Effect</b>, что
+  в свою очередь не даст +30 потенциала к первому <img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean
+  Shot</b>. Вот тут решать вам.
+</p>
+
+<p>
+  На 38 уровне появляется новая абилка - <img src="images/icons/machinist/fNRRoh7ZotGkMwCKkXd2u4XRF0.png" style="width: 30px;" alt=""><b>Wildfire</b>.
+  <br>
+  <img src="images/icons/machinist/fNRRoh7ZotGkMwCKkXd2u4XRF0.png" style="width: 30px;" alt=""><b>Wildfire</b> - дебафф, который накладывается на цель на 10 сек, через 10 сек дебафф взрывается и наносит урон, равный 25% всему нанесенному ранее урону за время действия дебафа. Откат 60 секунд.
+  <br>
+  То есть в теории ты наносишь максимальное количество урона за этот промежуток времени и 25% от него засчитывается во взрыв. Так что если взять верхнюю ротацию с Clean Shot то <img src="images/icons/machinist/fNRRoh7ZotGkMwCKkXd2u4XRF0.png" style="width: 30px;" alt=""><b>Wildfire</b> должен быть
+  использован после <img src="images/icons/machinist/vcG5vI6AVjfQX8acb5ir3gH-As.png" style="width: 30px;" alt=""><b>Rapid
+  Fire</b>.
+  <br>
+  <img src="images/icons/machinist/vXOGNVgktgRB3CwKooV4zXKdH8.png" style="width: 30px;" alt=""><b>Hot Shot</b> > <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Reload</b> >
+  <img src="images/icons/machinist/vcG5vI6AVjfQX8acb5ir3gH-As.png" style="width: 30px;" alt=""><b>Rapid Fire</b> > <img src="images/icons/machinist/fNRRoh7ZotGkMwCKkXd2u4XRF0.png" style="width: 30px;" alt=""><b>Wildfire</b> >
+  <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot</b> и т.д.
+  <br>
+  Моя личная рекомендация прожимать этот скилл исключительно на боссах до достижения Данжей/Рейдов 50го и выше уровня.
+</p>
+
+<p>
+  Всё выше в принципе повторяете до 52го уровня, так как пришло время наших механических друзей.
+  <br>
+  <img src="images/icons/machinist/XWSYWotO9RcUlcGodAGpmAvFCM.png" style="width: 30px;" alt=""><b>Rook Turret</b> на 40 уровне и <img src="images/icons/machinist/iqDHryv2Hj7SDTnD4OUEaveba0.png" style="width: 30px;" alt=""><b>Bishop Turret</b> на 50 уровне.
+  <br>
+  <img src="images/icons/machinist/XWSYWotO9RcUlcGodAGpmAvFCM.png" style="width: 30px;" alt=""><b>Rook Turret</b> - это абилка призывающая механическую пушку в указанную область. Она стреляет в одну цель с базовым потенциальным уроном 80. Пушка поменяет цель в том случае если игрок использует
+  Weaponskill на этой цели. Ставится всегда на боссах как наш доп урон.
+  <br>
+  <img src="images/icons/machinist/iqDHryv2Hj7SDTnD4OUEaveba0.png" style="width: 30px;" alt=""><b>Bishop Turret</b> - это абилка, призывающая механическую пушку в указанную область. Она стреляет по всем целям в радиусе с базовым потенциалом урона в первую цель 60, во вторую 90%, в 3ью 80%, в 4ую
+  70%, в 5ую 60% и все последующие по 50% от базового значения. Его лучше всего ставить, когда танк набрал 2-3 группы мобов и уже остановился, тогда ставите <b>Bishop Turret</b> строго в центр и наблюдаете как медленно, но верно угасают жизненные силы мобов.
+  <br>
+</p>
+
+<h3>Ротация 50</h3>
+
+<p>
+  Вот вы достигли 50го уровня и у вас появились первые серьезные подземелья и рейды. Соответственно, надо бы выверить ротацию для всего что было выше. Поехали:
+  <br>
+  Для начала ставим <img src="images/icons/machinist/XWSYWotO9RcUlcGodAGpmAvFCM.png" style="width: 30px;" alt=""><b>Rook Turret</b> перед боссом, не бойтесь, турель не заагрит босса.
+  <br>
+  Потом прожимаем <img src="images/icons/machinist/vXOGNVgktgRB3CwKooV4zXKdH8.png" style="width: 30px;" alt=""><b>Hot Shot</b> на пуле
+  <br>
+  Потом <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Reload</b> > <img src="images/icons/machinist/vcG5vI6AVjfQX8acb5ir3gH-As.png" style="width: 30px;" alt=""><b>Rapid Fire</b> >
+  <img src="images/icons/machinist/fNRRoh7ZotGkMwCKkXd2u4XRF0.png" style="width: 30px;" alt=""><b>Wildfire</b> > <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot</b> >
+  <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug Shot</b> > <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot</b> >
+  <img src="images/icons/machinist/fWB2B7FhgXJUlFUbTWirrMmF6k.png" style="width: 30px;" alt=""><b>Reassemble</b> > <img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean Shot</b> >
+  <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Quick Reload</b> > <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug Shot</b> >
+  <img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean Shot</b>, в этот момент должен сработать <img src="images/icons/machinist/fNRRoh7ZotGkMwCKkXd2u4XRF0.png" style="width: 30px;" alt=""><b>Wildfire</b>. После всего этого мы делаем обычное комбо
+  <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot</b> > <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug Shot</b>(если улучшенное) >
+  <img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean Shot</b>(если улучшенное). Когда откатился 2-й <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Reload</b>, то
+  <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Reload</b> >
+  <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split</b> > <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug</b> >
+  <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split</b> > <img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean</b> >
+  <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Quick Reload</b> > <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug</b> >
+  <img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean</b>. Далее повторяем процедуру с
+  <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split</b> > <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug</b> >
+  <img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean</b>, до момента когда надо снова <img src="images/icons/machinist/vXOGNVgktgRB3CwKooV4zXKdH8.png" style="width: 30px;" alt=""><b>Hot Shot</b> и по новой до убийства босса.
+  <img src="images/icons/machinist/UOREdzAERMGf6S94u2aOUi9JAg.png" style="width: 30px;" alt=""><b>Heartbreak</b> на
+  20% хп у босса по кд.
+  <br>
+  Для аое, мы ставим <img src="images/icons/machinist/iqDHryv2Hj7SDTnD4OUEaveba0.png" style="width: 30px;" alt=""><b>Bishop Turret</b>. Потом жмем <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Reload</b> >
+  <img src="images/icons/machinist/vcG5vI6AVjfQX8acb5ir3gH-As.png" style="width: 30px;" alt=""><b>Rapid Fire</b> > <img src="images/icons/machinist/qH8vmi3rXDeYBC1i8FtTCb4HlI.png" style="width: 30px;" alt=""><b>Spread Shot</b> >
+  <img src="images/icons/machinist/qH8vmi3rXDeYBC1i8FtTCb4HlI.png" style="width: 30px;" alt=""><b>Spread Shot</b> > <img src="images/icons/machinist/fWB2B7FhgXJUlFUbTWirrMmF6k.png" style="width: 30px;" alt=""><b>Reassemble</b> >
+  <img src="images/icons/machinist/qH8vmi3rXDeYBC1i8FtTCb4HlI.png" style="width: 30px;" alt=""><b>Spread Shot</b> > <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Quick Reload</b> >
+  <img src="images/icons/machinist/qH8vmi3rXDeYBC1i8FtTCb4HlI.png" style="width: 30px;" alt=""><b>Spread Shot</b>. Потом прожимаем
+  <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split</b> > <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug</b> >
+  <img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean</b> на одном мобе до отката <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Reload</b>. И если по какой-то причины мобы к этому моменту еще живы,
+  повторяем процедуру снова.
+</p>
+
+<h3>Немного лора часть II</h3>
+
+<div class="img"><img src="images/icons/machinist/ab3c6438a247087190f510d505f3c5a372f01e22.jpg" alt=""></div>
+
+<p>
+  Стрелковое оружие пережило 2-ю эволюцию в северном Исабарде во времена ранней 6-ой Эры Астрала. Нехватка магических способностей у гарлеанских поселении способствовала другим вариантам продвижения к процветанию и величию. Так они изобрели машины. Во время индустриальной революции Империй Гарлеан,
+  гарлеанцы открыли порох и стали его внедрять в свои изобретения и оружие, что в свою очередь помогло в становлений смиренной республики, которая распространилась на половину мира. Знания этих технологий быстро распространились по всем Трём Великим Континентам, из-за политики Гарлемалдских
+  завоевателей кроме Ишгарда и Лимсы, редко где можно встретить огнестрельное оружие. Из-за адаптаций жителей Эорзии к магии, многие просто не считают нужным его использовать.
+</p>
+
+<h3>Скиллы 50-70</h3>
+
+<p>
+  На 52-ом у вас появится еще одна абилка с доп. интерфейсом. Прошу любить и жаловать - <img src="images/icons/machinist/hxfrtOfTvM6zZ11tO2A9apDGFY.png" style="width: 30px;" alt=""><b>Gauss Barrel</b>.
+  <br>
+  <img src="images/icons/machinist/hxfrtOfTvM6zZ11tO2A9apDGFY.png" style="width: 30px;" alt=""><b>Gauss Barrel</b> - это абилка, которая "насаживает" на наш пистолет дополнительный ствол и "подогревает" наши Weaponskills. Когда
+  <img src="images/icons/machinist/hxfrtOfTvM6zZ11tO2A9apDGFY.png" style="width: 30px;" alt=""><b>Gauss Barrel</b> активна, весь урон увеличен на 5% и начинается нагрев пушки через Heat Gauge при использований Weaponskills. При доведении
+  <b>Heat Gauge</b> до 100, <img src="images/icons/machinist/hxfrtOfTvM6zZ11tO2A9apDGFY.png" style="width: 30px;" alt=""><b>Gauss Barrel</b> переходит в перегрев и весь урон увеличен на 10% пока пушка перегрета.
+</p>
+
+<p>
+  У всех <b>Weaponskills</b>, описанных ранее, внизу приписывается Increasing Heat Gauge by 5. Вот именно этот эффект активируется при активации <img src="images/icons/machinist/hxfrtOfTvM6zZ11tO2A9apDGFY.png" style="width: 30px;" alt=""><b>Gauss Barrel</b>. Соответственно при использовании
+  <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot</b>/<img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug
+  Shot</b>/<img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean Shot</b>/<img src="images/icons/machinist/vXOGNVgktgRB3CwKooV4zXKdH8.png" style="width: 30px;" alt=""><b>Hot
+  Shot</b>/<img src="images/icons/machinist/qH8vmi3rXDeYBC1i8FtTCb4HlI.png" style="width: 30px;" alt=""><b>Spread Shot</b>/<img src="images/icons/machinist/UYVMDirm_MZty5M3Wz_eCynGUU.png" style="width: 30px;" alt=""><b>Cooldown</b>(на 62-м уровне мы к этому скиллу вернемся) перегрев будет
+  повышаться на 5 единиц. Исключение составляет скиллы, прожатые под <b>Ammunition Effect</b>.
+</p>
+
+<p>
+  Суть теперь заключается в том, чтобы как можно быстрее заполнить перегрев и войти в эти 10 секунд перегрева с чистой совестью и желательно? чтобы на откате были все абилки и тогда, когда нагрев доходит до 95, то врубаете ротацию с
+  <img src="images/icons/machinist/fNRRoh7ZotGkMwCKkXd2u4XRF0.png" style="width: 30px;" alt=""><b>Wildfire</b> и получаете максимальную выгоду с перегрева. И так идём до 64-го. В течение этого времени вам будут даны следующие скиллы:
+</p>
+
+<div class="table-wrapper">
+  <table class="table center">
+    <tr>
+      <th>Иконка</th>
+      <th>Название</th>
+      <th>Описание</th>
+      <th style="max-width: 102px">Уровень получения</th>
+      <th style="max-width: 102px">Время применения</th>
+      <th style="max-width: 100px">Время восстан-<br>овления</th>
+      <th style="max-width: 100px; font-size: 14px;">Стоимость</th>
+      <th style="max-width: 128px">Дальность действия/радиус</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/1RKmL4k8-ZXKTS510A9RLzvzr4.png" style="width: 50px;" alt=""></th>
+      <th>Gauss Round</th>
+      <th>Атака с силой 210</th>
+      <th>54</th>
+      <th>Мгновенный</th>
+      <th>15 сек.</th>
+      <th>-</th>
+      <th>25y/0y</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/b_XKIo40EG9u84p3vK2Lwdwubk.png" style="width: 50px;" alt=""></th>
+      <th>Dismantle</th>
+      <th>
+        Снижает урон наносимый целью на 10%.
+        <br>
+        Продолжительность: 5 сек
+      </th>
+      <th>56</th>
+      <th>Мгновенный</th>
+      <th>60 сек.</th>
+      <th>-</th>
+      <th>25y/0y</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/va_aGt7UKgUrMKaM5rG2kuytJ8.png" style="width: 50px;" alt=""></th>
+      <th>Hypercharge</th>
+      <th>
+        Даёт вашей турели эффект Overcharges, увеличивая её силу.
+        <br>
+        Продолжительность: 20 сек
+        <br>
+        Способность может быть применена, только если турель призвана.
+      </th>
+      <th>58</th>
+      <th>Мгновенный</th>
+      <th>120 сек.</th>
+      <th>-</th>
+      <th>0y/0y</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/uGaeY8maqDWr5wMl2dQDbKwREY.png" style="width: 50px;" alt=""></th>
+      <th>Ricochet</th>
+      <th>
+        Атака по всем окружающим врагам с силой 320 по первому врагу, на 10% меньше по второму, на 20% меньше по третьему, на 30% меньше по четвертому, на 40% меньше по пятому, и на 50% меньше по всем оставшимся врагам.
+      </th>
+      <th>60</th>
+      <th>Мгновенный</th>
+      <th>60 сек.</th>
+      <th>-</th>
+      <th>25y/5y</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/UYVMDirm_MZty5M3Wz_eCynGUU.png" style="width: 50px;" alt=""></th>
+      <th>Cooldown</th>
+      <th>
+        Атака с силой 150, если <b>Heat Gauge</b> до 50, 230 если шкала заполнена на 50 или больше.
+        <br>
+        Эффект <b>Ammunition</b>: Увеличивает силу <b>Cooldown</b> на 30
+      </th>
+      <th>62</th>
+      <th>Мгновенный</th>
+      <th>2,5 сек.</th>
+      <th>60 TP</th>
+      <th>25y/0y</th>
+    </tr>
+  </table>
+</div>
+
+<p>
+  Вы достигли 60 уровня и в принципе ротация от 50 уровня не отличается, за исключением прожатия <img src="images/icons/machinist/hxfrtOfTvM6zZ11tO2A9apDGFY.png" style="width: 30px;" alt=""><b>Gauss Barrel</b> перед босом, и каждый раз, когда она в откате после перегрева, <b>и важно постараться
+  прожать ротацию с <img src="images/icons/machinist/fNRRoh7ZotGkMwCKkXd2u4XRF0.png" style="width: 30px;" alt=""><b>wildfire</b> в 10 секунд перегрева</b> <img src="images/icons/machinist/hxfrtOfTvM6zZ11tO2A9apDGFY.png" style="width: 30px;" alt=""><b>Gauss Barrel</b>, ибо весь дамаг увеличивается
+  на 10%.
+</p>
+
+<p>
+  Возвращаемся к весёлому. Вы достигли 64го уровня. ГЦ! Помните наше основное комбо? Это которое <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot</b> >
+  <img src="images/icons/machinist/LkD2wtRP1Ggjs4ERjsqJboU7xk.png" style="width: 30px;" alt=""><b>Slug Shot</b> > <img src="images/icons/machinist/WYU62dsLyTjFvph5cSB5CzLlFo.png" style="width: 30px;" alt=""><b>Clean Shot</b>? Так вот поздравляю, вам его повышают до статуса нагревательных. Давайте
+  всё по порядку.
+</p>
+
+<p>
+  При нагреве в 50 очков ваше основное комбо видоизменяется на 64+ уровне и превращается в:
+</p>
+
+<ul>
+  <li><img src="images/icons/machinist/ly0yV90ut6KrXBw867HmCjxW0M.png" style="width: 30px;" alt=""><b>Heated Split Shot</b> - потенциал урона теперь 190 + все плюхи</li>
+  <li>
+    <img src="images/icons/machinist/K-ZFPdZr6x7ZZTQS2j-l2643HE.png" style="width: 30px;" alt=""><b>Heated Slug Shot</b> - улучшенный теперь даёт потенциал в 230 + все плюхи
+  </li>
+  <li>
+    <img src="images/icons/machinist/RVN1aVHqvrZPINeZcvzZolbLuk.png" style="width: 30px;" alt=""><b>Heated Clean Shot</b> - улучшенный теперь даёт потенциал в 270 + все плюхи
+  </li>
+</ul>
+
+<p>
+  И вот тут уже начинается самое интересное. Скилл <img src="images/icons/machinist/UYVMDirm_MZty5M3Wz_eCynGUU.png" style="width: 30px;" alt=""><b>Cooldown</b> с 62-го тут входит в игру. Теперь при набивании 50 очков нагрева, можно использовать <b>Heated</b> комбо до 75ти очков нагрева,
+  использовать <img src="images/icons/machinist/UYVMDirm_MZty5M3Wz_eCynGUU.png" style="width: 30px;" alt=""><b>Cooldown</b> и откатывать его постоянно до 50ти весь бой. А учитывая, что скиллы под
+  <b>Ammunition Effect</b> не добавляют очков нагрева, то путь до 75 очков нагрева еще увеличивается. Давайте теперь представим всё выше перечисленное (или по крайней мере попытаемся):
+  Вы начинаете стандартную ротацию с <img src="images/icons/machinist/fNRRoh7ZotGkMwCKkXd2u4XRF0.png" style="width: 30px;" alt=""><b>wildfire</b>, но вы добавляете <img src="images/icons/machinist/hxfrtOfTvM6zZ11tO2A9apDGFY.png" style="width: 30px;" alt=""><b>Gauss Barrel</b> (можно до захода в
+  данж) в начале(<img src="images/icons/machinist/hxfrtOfTvM6zZ11tO2A9apDGFY.png" style="width: 30px;" alt=""><b>Gauss Barrel</b> > <img src="images/icons/machinist/vXOGNVgktgRB3CwKooV4zXKdH8.png" style="width: 30px;" alt=""><b>Hot Shot</b> >
+  <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Reload</b> > <img src="images/icons/machinist/vcG5vI6AVjfQX8acb5ir3gH-As.png" style="width: 30px;" alt=""><b>Rapid Fire</b> >
+  <img src="images/icons/machinist/fNRRoh7ZotGkMwCKkXd2u4XRF0.png" style="width: 30px;" alt=""><b>wildfire</b> > <img src="images/icons/machinist/LDpj5LnP0_8VicWsFDD3mKdHVQ.png" style="width: 30px;" alt=""><b>Split Shot</b> и тд). Допустим, вы дошли до 50ти нагрева и в начале ротации(что скорее
+  всего не случится, но это для примера), то примерно <img src="images/icons/machinist/UYVMDirm_MZty5M3Wz_eCynGUU.png" style="width: 30px;" alt=""><b>Cooldown</b> должен быть использован перед 3-им <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Reload</b>.
+</p>
+
+<p>
+  На следующих уровнях появится еще несколько способностей:
+</p>
+
+<div class="table-wrapper">
+  <table class="table">
+    <tr>
+      <th>Иконка</th>
+      <th>Название</th>
+      <th>Описание</th>
+      <th style="max-width: 102px">Уровень получения</th>
+      <th style="max-width: 102px">Время применения</th>
+      <th style="max-width: 100px">Время восстан-<br>овления</th>
+      <th style="max-width: 100px; font-size: 14px;">Стоимость</th>
+      <th style="max-width: 128px">Дальность действия/радиус</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/AlsSnU8BtD-YZo3iUQLbh4Zodc.png" style="width: 50px;" alt=""></th>
+      <th>Barrel Stabilizer</th>
+      <th>
+        Устанавливает значение шкалы Heat Gauge на 50.
+        <br>
+        Способность может быть использована только в бою, ваше оружие не должно иметь статус <b>Overheated</b>, и должен быть применен эффект <b>Gauss Barrel</b>.
+      </th>
+      <th>66</th>
+      <th>Мгновенный</th>
+      <th>60 сек.</th>
+      <th>-</th>
+      <th>0y/0y</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/cQrGlSv2cqPfrOLZhsL2Iu_UyM.png" style="width: 50px;" alt=""></th>
+      <th>Rook Overdrive</th>
+      <th>
+        Отправляет команду вашей <b>Rook Autoturret</b> войти в режим овердрайв. В этом режиме турель будет наносить мощные атаки, повреждаясь. После турель исчезнет с поля боя для ремонта и не может быть вызвана в течении 30 сек.
+        ※Действие меняется на <b>Bishop Overdrive</b>, если <b>Bishop Autoturret</b> призвана.
+      </th>
+      <th>68</th>
+      <th>Мгновенный</th>
+      <th>120 сек.</th>
+      <th>-</th>
+      <th>25y/0y</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/cQrGlSv2cqPfrOLZhsL2Iu_UyM.png" style="width: 50px;" alt=""></th>
+      <th>Bishop Overdrive</th>
+      <th>
+        Отправляет команду вашей <b>Bishop Autoturret</b> войти в режим овердрайв. В этом режиме, турель будет наносить мощные атаки, повреждаясь. После турель исчезнет с поля боя для ремонта и не может быть вызвана в течении 30 сек.
+      </th>
+      <th>68</th>
+      <th>Мгновенный</th>
+      <th>120 сек.</th>
+      <th>-</th>
+      <th>25y/0y</th>
+    </tr>
+    <tr>
+      <th><img src="images/icons/machinist/mfIH0ITLkpUuYlNLFaEnpEaLNE.png" style="width: 50px;" alt=""></th>
+      <th>Flamethrower</th>
+      <th>
+        Наносит периодический урон всем врагам в пределах конуса перед персонажем.
+        <br>
+        Сила: 60
+        <br>
+        Продолжительность: 10 сек
+        <br>
+        Эффект Gauss Barrel: Heat Gauge постепенно увеличивается на 20 пока Flamethrower активен. Heat Gauge не будет заполняться если действие выполняется вне боя.
+        <br>
+        Действие прервется если будет использовано выполнено любое другое, либо персонаж сдвинется с места (в том числе, если развернется в другом направлении).
+        <br>
+        Отменяет авто-атаки при использовании.
+      </th>
+      <th>70</th>
+      <th>Мгновенный</th>
+      <th>60 сек.</th>
+      <th>Heat Gauge</th>
+      <th>0y/8y</th>
+    </tr>
+  </table>
+</div>
+
+<h3>Ротация на 70 уровне</h3>
+
+<p>
+  Поздравляю, вы дошли до промежуточного капа(Shadowbringers не за горами). Теперь давайте рассмотрим ротацию для нормального прохождения контента на капе, но не рассчитанного на хай-энд контент.
+</p>
+
+<p>
+  Вы начинаете с того, что врубаете <img src="images/icons/machinist/hxfrtOfTvM6zZ11tO2A9apDGFY.png" style="width: 30px;" alt=""><b>Gauss Barrel</b>(можно до того как вы встали на очередь в инст), ставите <img src="images/icons/machinist/XWSYWotO9RcUlcGodAGpmAvFCM.png" style="width: 30px;" alt=""><b>Rook
+  Turret</b>. Пул, <img src="images/icons/machinist/AlsSnU8BtD-YZo3iUQLbh4Zodc.png" style="width: 30px;" alt=""><b>Barrel Stabilizer</b> > <img src="images/icons/machinist/vXOGNVgktgRB3CwKooV4zXKdH8.png" style="width: 30px;" alt=""><b>Hot Shot</b> >
+  <img src="images/icons/machinist/va_aGt7UKgUrMKaM5rG2kuytJ8.png" style="width: 30px;" alt=""><b>Hypercharge</b> > <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Reload</b> >
+  <img src="images/icons/machinist/vcG5vI6AVjfQX8acb5ir3gH-As.png" style="width: 30px;" alt=""><b>Rapid Fire</b> > <img src="images/icons/machinist/fNRRoh7ZotGkMwCKkXd2u4XRF0.png" style="width: 30px;" alt=""><b>Wildfire</b> >
+  <img src="images/icons/machinist/ly0yV90ut6KrXBw867HmCjxW0M.png" style="width: 30px;" alt=""><b>Heated Split Shot</b> > <img src="images/icons/machinist/K-ZFPdZr6x7ZZTQS2j-l2643HE.png" style="width: 30px;" alt=""><b>Heated Slug Shot</b> >
+  <img src="images/icons/machinist/ly0yV90ut6KrXBw867HmCjxW0M.png" style="width: 30px;" alt=""><b>Heated Split Shot</b> > <img src="images/icons/machinist/RVN1aVHqvrZPINeZcvzZolbLuk.png" style="width: 30px;" alt=""><b>Heated Clean Shot</b> >
+  <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Quick Reload</b> > <img src="images/icons/machinist/K-ZFPdZr6x7ZZTQS2j-l2643HE.png" style="width: 30px;" alt=""><b>Heated Slug Shot</b> >
+  <img src="images/icons/machinist/fWB2B7FhgXJUlFUbTWirrMmF6k.png" style="width: 30px;" alt=""><b>Reassemble</b> >
+  <img src="images/icons/machinist/RVN1aVHqvrZPINeZcvzZolbLuk.png" style="width: 30px;" alt=""><b>Heated Clean Shot</b> > <img src="images/icons/machinist/1RKmL4k8-ZXKTS510A9RLzvzr4.png" style="width: 30px;" alt=""><b>Gauss Round</b> >
+  <img src="images/icons/machinist/uGaeY8maqDWr5wMl2dQDbKwREY.png" style="width: 30px;" alt=""><b>Ricochet</b>.
+  <br>
+  Дальше мучаем Shot(<img src="images/icons/machinist/ly0yV90ut6KrXBw867HmCjxW0M.png" style="width: 30px;" alt=""><b>Heated Split Shot</b>, <img src="images/icons/machinist/K-ZFPdZr6x7ZZTQS2j-l2643HE.png" style="width: 30px;" alt=""><b>Heated Slug Shot</b>,
+  <img src="images/icons/machinist/RVN1aVHqvrZPINeZcvzZolbLuk.png" style="width: 30px;" alt=""><b>Heated Clean Shot</b>) комбо до отката <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Reload</b>, потом
+  <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Reload</b> > <img src="images/icons/machinist/ly0yV90ut6KrXBw867HmCjxW0M.png" style="width: 30px;" alt=""><b>Heated Split Shot</b> >
+  <img src="images/icons/machinist/K-ZFPdZr6x7ZZTQS2j-l2643HE.png" style="width: 30px;" alt=""><b>Heated Slug Shot</b> > <img src="images/icons/machinist/ly0yV90ut6KrXBw867HmCjxW0M.png" style="width: 30px;" alt=""><b>Heated Split Shot</b> >
+  <img src="images/icons/machinist/RVN1aVHqvrZPINeZcvzZolbLuk.png" style="width: 30px;" alt=""><b>Heated Clean Shot</b> > <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Quick Reload</b> >
+  <img src="images/icons/machinist/K-ZFPdZr6x7ZZTQS2j-l2643HE.png" style="width: 30px;" alt=""><b>Heated Slug Shot</b> > <img src="images/icons/machinist/RVN1aVHqvrZPINeZcvzZolbLuk.png" style="width: 30px;" alt=""><b>Heated Clean Shot</b>
+  <br>
+  К 3-му откату <img src="images/icons/machinist/OK8sMdbJ8aW4VveZ3vG4w2OC6w.png" style="width: 30px;" alt=""><b>Quick Reload</b> повторяем процедуру. <img src="images/icons/machinist/UOREdzAERMGf6S94u2aOUi9JAg.png" style="width: 30px;" alt=""><b>Heartbreak</b> на 20%.
+  <img src="images/icons/machinist/UYVMDirm_MZty5M3Wz_eCynGUU.png" style="width: 30px;" alt=""><b>Cooldown</b> юзаем при 75+ нагрева. Если, и только если ушли в перегрев, можете пафосно подойти и врубить Ганс, Пушку!
+  (<img src="images/icons/machinist/mfIH0ITLkpUuYlNLFaEnpEaLNE.png" style="width: 30px;" alt=""><b>Flamethrower</b>) и взорвать турель(<img src="images/icons/machinist/cQrGlSv2cqPfrOLZhsL2Iu_UyM.png" style="width: 30px;" alt=""><b>Overdrive</b>).
+</p>
+
+<p>
+  Для аое в принципе можно использовать как и ротацию с Ганс Пушкой так и аое ротацию 50го или вместе. Как говорится, Totally up to you!
+</p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="article-page__sidebar-col col">
+        <div class="article-page__sidebar">
+          <div class="sidebar">
+  <div class="sidebar__title">Последние посты</div>
+
+  <div class="posts-sidebar sidebar__posts">
+    <a href="#" class="item-sidebar-posts posts-sidebar__item">
+      <div
+        class="item-sidebar-posts__img"
+        style="
+          background-image: url(https://html.nkdev.info/godlike/assets/images/post-1.jpg);
+        "
+      ></div>
+      <div class="item-sidebar-posts__col">
+        <div class="item-sidebar-posts__title">Пост 1</div>
+        <div class="item-sidebar-posts__date">01,01,2020</div>
+      </div>
+    </a>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container footer-container">
+    <div class="footer-email">Почта для обратной связи: ff14club@yandex.ru</div>
+  </div>
+</footer>
+
+<div class="scroll-top">Наверх</div>
+
+<div class="page-border">
+  <div class="page-border__item page-border__item_left"></div>
+  <div class="page-border__item page-border__item_top"></div>
+  <div class="page-border__item page-border__item_right"></div>
+  <div class="page-border__item page-border__item_bottom"></div>
+</div>
+
+<script src="dist/js/libs.min.js"></script>
+<script src="dist/js/common.min.js"></script>
+
+</body>
+</html>
+
+
