@@ -1,0 +1,33 @@
+.sidebar__title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.item-sidebar-posts {
+  display: flex;
+  align-items: stretch;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.item-sidebar-posts__img {
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-right: 15px;
+}
+
+.item-sidebar-posts__col {
+  width: 50%;
+}
+
+.item-sidebar-posts__title {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.item-sidebar-posts__date {
+  opacity: 0.6;
+  color: #ffffff;
+}

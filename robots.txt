@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /index.html
+Host: ff14-club.ru
+Sitemap: https://ff14-club.ru/sitemap.xml

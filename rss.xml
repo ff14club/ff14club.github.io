@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>ff14-club</title>
+		<description>Новости, гайды по игре Final Fantasy XIV Online</description>
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Вышел фанатский набор для FINAL FANTASY XIV</title>
+				<description><![CDATA[
+					<a href="http://localhost:4000/news/vyshel-fanatskij-nabor-dlya-final-fantasy-xiv/"><img width="100%" src="http://localhost:4000images/news/2019/06/27.06.2019/1.jpg"></a>
+					Square Enix выпустили очередной фанатский набор, чтобы преобразить ваши смартфоны и компьютеры!
+					]]></description>
+				<pubDate>Thu, 27 Jun 2019 00:00:00 +0300</pubDate>
+				<link>http://localhost:4000/news/vyshel-fanatskij-nabor-dlya-final-fantasy-xiv/</link>
+				<guid isPermaLink="true">http://localhost:4000/news/vyshel-fanatskij-nabor-dlya-final-fantasy-xiv/</guid>
+			</item>
+		
+			<item>
+				<title>Изменения фейтов в Challenge Log в патче 5.0</title>
+				<description><![CDATA[
+					<a href="http://localhost:4000/news/izmeneniya-fejtov-v-challenge-log-v-patche-5-0/"><img width="100%" src="http://localhost:4000images/news/2019/06/20.06.2019/1.jpg"></a>
+					Категория FATE в challenge log будет пересмотрена в патче 5.0.
+					]]></description>
+				<pubDate>Thu, 20 Jun 2019 00:00:00 +0300</pubDate>
+				<link>http://localhost:4000/news/izmeneniya-fejtov-v-challenge-log-v-patche-5-0/</link>
+				<guid isPermaLink="true">http://localhost:4000/news/izmeneniya-fejtov-v-challenge-log-v-patche-5-0/</guid>
+			</item>
+		
+			<item>
+				<title>Взгляните на новые подземелья FINAL FANTASY XIV - Shadowbringers</title>
+				<description><![CDATA[
+					<a href="http://localhost:4000/news/vzglyanite-na-novye-podzemelya-final-fantasy-xiv-shadowbringers/"><img width="100%" src="http://localhost:4000images/news/2019/06/17.06.2019/1.jpg"></a>
+					Взгляните на новые подземелья FINAL FANTASY XIV - Shadowbringers!
+					]]></description>
+				<pubDate>Mon, 17 Jun 2019 00:00:00 +0300</pubDate>
+				<link>http://localhost:4000/news/vzglyanite-na-novye-podzemelya-final-fantasy-xiv-shadowbringers/</link>
+				<guid isPermaLink="true">http://localhost:4000/news/vzglyanite-na-novye-podzemelya-final-fantasy-xiv-shadowbringers/</guid>
+			</item>
+		
+			<item>
+				<title>Ранний доступ к дополнению Shadowbringers будет открыт 28 июня</title>
+				<description><![CDATA[
+					<a href="http://localhost:4000/news/rannij-dostup-k-dopolneniyu-shadowbringers-budet-otkryt-28-iyunya/"><img width="100%" src="http://localhost:4000images/news/2019/06/14.06.2019/1.jpg"></a>
+					Ранний доступ для Shadowbringers запланирован на пятницу, 28 июня!
+					]]></description>
+				<pubDate>Fri, 14 Jun 2019 00:00:00 +0300</pubDate>
+				<link>http://localhost:4000/news/rannij-dostup-k-dopolneniyu-shadowbringers-budet-otkryt-28-iyunya/</link>
+				<guid isPermaLink="true">http://localhost:4000/news/rannij-dostup-k-dopolneniyu-shadowbringers-budet-otkryt-28-iyunya/</guid>
+			</item>
+		
+			<item>
+				<title>Презентация трейлера FINAL FANTASY XIV - Shadowbringers</title>
+				<description><![CDATA[
+					<a href="http://localhost:4000/news/poslanie-prodyusera-51-izmeneniya-boevoj-sistemy/"><img width="100%" src="http://localhost:4000images/news/2019/06/07.06.2019/1.jpg"></a>
+					Square Enix рады представить нашему вниманию трейлер нового дополнения!
+					]]></description>
+				<pubDate>Fri, 07 Jun 2019 00:00:00 +0300</pubDate>
+				<link>http://localhost:4000/news/poslanie-prodyusera-51-izmeneniya-boevoj-sistemy/</link>
+				<guid isPermaLink="true">http://localhost:4000/news/poslanie-prodyusera-51-izmeneniya-boevoj-sistemy/</guid>
+			</item>
+		
+			<item>
+				<title>Трейлер изменений в профессиях</title>
+				<description><![CDATA[
+					<a href="http://localhost:4000/news/trejler-izmenenij-v-professiyah/"><img width="100%" src="http://localhost:4000images/news/2019/05/25.05.2019/1.jpg"></a>
+					Разработчики подготовили трейлер, демонстрирующий новые и обновленные способности всех 17 профессий, включая тех, что выходят в дополнении Shadowbringers - Gunbreaker и Dancer!
+					]]></description>
+				<pubDate>Sat, 25 May 2019 00:00:00 +0300</pubDate>
+				<link>http://localhost:4000/news/trejler-izmenenij-v-professiyah/</link>
+				<guid isPermaLink="true">http://localhost:4000/news/trejler-izmenenij-v-professiyah/</guid>
+			</item>
+		
+			<item>
+				<title>Стал доступен бенчмарк дополнения Shadowbringers</title>
+				<description><![CDATA[
+					<a href="http://localhost:4000/news/stal-dostupen-benchmark-dopolneniya-shadowbringers/"><img width="100%" src="http://localhost:4000images/news/2019/05/25.05.2019/2.jpg"></a>
+					Официальный бенчмарк для FINAL FANTASY XIV - Shadowbringers теперь доступен!
+					]]></description>
+				<pubDate>Sat, 25 May 2019 00:00:00 +0300</pubDate>
+				<link>http://localhost:4000/news/stal-dostupen-benchmark-dopolneniya-shadowbringers/</link>
+				<guid isPermaLink="true">http://localhost:4000/news/stal-dostupen-benchmark-dopolneniya-shadowbringers/</guid>
+			</item>
+		
+			<item>
+				<title>Стал доступен предзаказ Journeys - FINAL FANTASY XIV Arrangement Album</title>
+				<description><![CDATA[
+					<a href="http://localhost:4000/news/stal-dostupen-predzakaz-journeys-final-fantasy-xiv-arrangement-album/"><img width="100%" src="http://localhost:4000images/news/2019/05/18.05.2019/1.jpg"></a>
+					Square Enix рады представить нашему вниманию третий официальный альбом для FINAL FANTASY XIV, содержащий восемнадцать песен.
+					]]></description>
+				<pubDate>Sat, 18 May 2019 00:00:00 +0300</pubDate>
+				<link>http://localhost:4000/news/stal-dostupen-predzakaz-journeys-final-fantasy-xiv-arrangement-album/</link>
+				<guid isPermaLink="true">http://localhost:4000/news/stal-dostupen-predzakaz-journeys-final-fantasy-xiv-arrangement-album/</guid>
+			</item>
+		
+			<item>
+				<title>Стал доступен для покупки артбук Art of the Revolution – Eastern Memories</title>
+				<description><![CDATA[
+					<a href="http://localhost:4000/news/stal-dostupen-dlya-pokupki-artbuk-art-of-the-revolution-eastern-memories/"><img width="100%" src="http://localhost:4000images/news/2019/05/16.05.2019/1.jpg"></a>
+					Square Enix рады объявить о выходе артбука Stormblood Art of the Revolution - Eastern Memories.
+					]]></description>
+				<pubDate>Thu, 16 May 2019 00:00:00 +0300</pubDate>
+				<link>http://localhost:4000/news/stal-dostupen-dlya-pokupki-artbuk-art-of-the-revolution-eastern-memories/</link>
+				<guid isPermaLink="true">http://localhost:4000/news/stal-dostupen-dlya-pokupki-artbuk-art-of-the-revolution-eastern-memories/</guid>
+			</item>
+		
+			<item>
+				<title>Тринадцатый рейтинговый сезон The Feast скоро закончится</title>
+				<description><![CDATA[
+					<a href="http://localhost:4000/news/trinadcatyj-rejtingovyj-sezon-the-feast-skoro-zakonchitsya/"><img width="100%" src="http://localhost:4000images/news/2019/04/16.04.19/b111b2372d68c0a8ad3a65471cabe20d6e3e1eab.png"></a>
+					Борьба была ожесточенной, однако тринадцатый сезон The Feast подходит к концу.
+					]]></description>
+				<pubDate>Wed, 15 May 2019 00:00:00 +0300</pubDate>
+				<link>http://localhost:4000/news/trinadcatyj-rejtingovyj-sezon-the-feast-skoro-zakonchitsya/</link>
+				<guid isPermaLink="true">http://localhost:4000/news/trinadcatyj-rejtingovyj-sezon-the-feast-skoro-zakonchitsya/</guid>
+			</item>
+		
+	</channel>
+</rss>
