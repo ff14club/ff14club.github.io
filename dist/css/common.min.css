@@ -416,29 +416,29 @@
   }
 }
 
-.article-page p {
+.article-page__content p {
   margin-bottom: 1.7rem;
   color: #ffffff;
 }
 
-.article-page a {
+.article-page__content a {
   color: #e08821;
 }
 
-.article-page img {
+.article-page__content img {
   width: auto;
   max-width: 100%;
   display: block;
   margin: 0 auto;
 }
 
-.article-page .youtube {
+.article-page__content .youtube {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
 }
 
-.article-page .youtube iframe {
+.article-page__content .youtube iframe {
   position: absolute;
   top: 0;
   left: 0;

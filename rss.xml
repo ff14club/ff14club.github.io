@@ -2,9 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>ff14-club</title>
-		<description>Новости, гайды по игре Final Fantasy XIV Online</description>
+		<description>Новости, гайды по игре Final Fantasy XIV Online, Final Fantasy 14 Online</description>
 		<link>http://localhost:4000</link>
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>The Maiden’s Rhapsody возвращается 28 мая</title>
+				<description><![CDATA[
+					<a href="http://localhost:4000/news/the-maiden-s-rhapsody-vozvrashchaetsya-28-maya/"><img width="100%" src="http://localhost:4000images/news/2020/05/26.05.2020/1.jpg"></a>
+					The Maiden’s Rhapsody, специальный совместный ивент Final Fantasy XI и Final Fantasy XIV, возвращается. Участвуйте и узнайте, какой странный поворот судьбы привел героя Vana'diel в наше царство.
+					]]></description>
+				<pubDate>Tue, 26 May 2020 00:00:00 +0300</pubDate>
+				<link>http://localhost:4000/news/the-maiden-s-rhapsody-vozvrashchaetsya-28-maya/</link>
+				<guid isPermaLink="true">http://localhost:4000/news/the-maiden-s-rhapsody-vozvrashchaetsya-28-maya/</guid>
+			</item>
 		
 			<item>
 				<title>Вышел фанатский набор для FINAL FANTASY XIV</title>
@@ -103,17 +114,6 @@
 				<pubDate>Wed, 03 Apr 2019 00:00:00 +0300</pubDate>
 				<link>http://localhost:4000/guides/maunty-final-fantasy-14/</link>
 				<guid isPermaLink="true">http://localhost:4000/guides/maunty-final-fantasy-14/</guid>
-			</item>
-		
-			<item>
-				<title>Гайд по макросам</title>
-				<description><![CDATA[
-					<a href="http://localhost:4000/guides/guide-po-macrosam/"><img width="100%" src="http://localhost:4000images/guides/2019/04/macros/874130719_preview_619051370_preview_Window.jpg"></a>
-					
-					]]></description>
-				<pubDate>Tue, 02 Apr 2019 00:00:00 +0300</pubDate>
-				<link>http://localhost:4000/guides/guide-po-macrosam/</link>
-				<guid isPermaLink="true">http://localhost:4000/guides/guide-po-macrosam/</guid>
 			</item>
 		
 	</channel>
